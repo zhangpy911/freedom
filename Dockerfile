@@ -1,11 +1,11 @@
 FROM alpine:latest
 
-#ENV CONFIG_JSON=none CERT_PEM=none KEY_PEM=none VER=4.6.0
+#ENV CONFIG_JSON=none CERT_PEM=none KEY_PEM=none VER=4.10.0
 
 #RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 # && mkdir -m 777 /v2raybin \ 
 # && cd /v2raybin \
-# && curl -L -H "Cache-Con#trol: no-cache" -o v2ray.zip https://www.v2ray.com/download/Core_v4.6.0/v2ray-linux-64.zip \
+# && curl -L -H "Cache-Con#trol: no-cache" -o v2ray.zip https://www.v2ray.com/download/Core_v4.10.0/v2ray-linux-64.zip \
 # && unzip v2ray.zip \
 # && mv /v2raybin/v2ray-v$VER-linux-64/v2ray /v2raybin/ \
 # && mv /v2raybin/v2ray-v$VER-linux-64/v2ctl /v2raybin/ \
